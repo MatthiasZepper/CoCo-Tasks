@@ -48,7 +48,7 @@
   [1] "C" "B" "A"
   ```
 
-  So in order to reverse the sequence of the DNA, we must split the string into a character vector with a separate element for every single letter. This vector can then be reversed and the separate letters are then pasted together again into a single string. The sapply/lapply statements ensure that the function is also vectored and accepts multiple DNA sequences at once to process.  
+  So in order to reverse the sequence of the DNA, we must split the string into a character vector with a separate element for every single letter. This vector can then be reversed and the separate letters are then pasted together again into a single string. The ` sapply/lapply ` statements ensure that the function is also vectored and accepts multiple DNA sequences at once to process.  
 
 ## Task to solve
 
